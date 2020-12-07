@@ -195,3 +195,4 @@ params:
   #   - category
   #   - tag
   #   - recent_posts
+  publishDir : docs
