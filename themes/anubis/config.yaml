@@ -1,19 +1,35 @@
 languageCode: "en-us"
 baseUrl: ""
 title: "The Objective"
-theme: "anubis"
+theme: "hugo-theme-pure"
 paginate: 10
 disqusShortname: yourdiscussshortname
 googleAnalytics: UA-123-45
 enableRobotsTXT: true
+defaultContentLanguage: zh
 
-menu:
-  main:
-  - identifier: archive
-    name: Archive
-    title: Archive
-    url: /posts/
-    weight: 0
+# menu:
+#   main:
+#   - identifier: archive
+#     name: Archive
+#     title: Archive
+#     url: /posts/
+#     weight: 0
+#   - identifier: About
+#     name: About
+#     title: About
+#     url: /About/
+#     weight: 0
+menuIcons:
+  enable: true  
+  home: icon-home-fill
+  archives: icon-archives-fill
+  categories: icon-folder
+  tags: icon-tags
+  repository: icon-project
+  books: icon-book-fill
+  links: icon-friendship
+  about: icon-cup-fill
 
 params:
   author: ""
