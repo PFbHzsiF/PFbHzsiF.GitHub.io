@@ -93,7 +93,7 @@ params:
   # profile
   profile:
     enabled: true # Whether to show profile bar
-    avatar: IMG_6966.JPG
+    avatar: 900x900.jpeg
     gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
     author: The Objective
     # author_title: author title
